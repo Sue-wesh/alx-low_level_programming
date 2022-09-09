@@ -1,23 +1,35 @@
-#include <stdio.h>
+#include <stdlib.h>
+
+#include <time.h>
+
+/* more headers goes there */
+
+
+
+/* betty style doc for function main goes there */
 /**
- * findSign - if n  is neg or pos
+ * main - entrypoint
  *
- * @n : the number that we check if its neg or pos
- *
- * Return : value returned or '0'
+ * Return: return 0
  *
  */
-int findSign(int n){
 
-	if (n>0){
-		printf("It is positive");
+int main(void)
+
+{
+	int n;
+
+	srand(time(0));
+	n = rand() - RAND_MAX / 2;
+	if(n>0){
+		printf("%n\n",n, "is positive");
 	}
 	else if(n==0){
-		printf("It is 0");
+		printf("%n\n",n, "is zero");
 	}
-	else{
-		printf("it is negative");
+	else if(n<0){
+		printf("%n\n",n, "is negative");
 	}
 	return (0);
+
 }
-       	

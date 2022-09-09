@@ -7,8 +7,6 @@
  *
  */
 int findSign(int n){
-	printf("Enter a value for n: ");
-	scanf("%d\n", n);
 
 	if (n>0){
 		printf("It is positive");

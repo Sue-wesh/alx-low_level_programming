@@ -1,3 +1,4 @@
+#include <stdio.h>
 /**
  * findSign - if n  is neg or pos
  *

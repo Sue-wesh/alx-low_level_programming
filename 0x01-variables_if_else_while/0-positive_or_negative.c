@@ -27,10 +27,10 @@ int main(void)
 	if ( n > 0 ) {
 		printf ("%d is positive\n", n );
 	}
-	else if ( n1 ==0 ) {
+	else if ( n == 0 ) {
 		printf ("%d is zero\n", n1 );
 	}
-	else if ( n2 < 0 ) {
+	else if ( n < 0 ) {
 		printf ("%d is negative\n",n2);
 	}
 	return (0);

@@ -19,7 +19,7 @@ int main(void)
 {
 	int n = 98;
 	int n1 = 0;
-	int n2 = -98
+	int n2 = -98;
 
 	if ( n > 0 ) {
 		printf ("%d is positive\n", n );

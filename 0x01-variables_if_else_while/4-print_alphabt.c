@@ -15,7 +15,7 @@ int main(void)
 	
 	do
 	{
-		if(x = 'q' || 'e')
+		if(x = 'q' || x = 'e')
 			continue;
 		x++;
 	}

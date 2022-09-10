@@ -4,7 +4,6 @@
 /* betty style doc for function main goes there */
 
 /**
- *
  * main - entrypoint
  *
  * Return: return 0
@@ -21,6 +20,7 @@ int main(void)
 		putchar(x);
 	for (y = 'A'; y<= 'Z'; y++)
 		putchar(y);
+	        putchar("\n");
 	return(0);
 
 }

@@ -18,8 +18,7 @@ int main(void)
 	
 	for (x = 'a'; x <= 'z'; x++)
 		putchar(x);
-	for (y = 'A'; y<= 'Z'; y++)
+	for (y = 'A'; y <= 'Z'; y++)
 		putchar(y);
-	return(0);
-
+	return (0);
 }

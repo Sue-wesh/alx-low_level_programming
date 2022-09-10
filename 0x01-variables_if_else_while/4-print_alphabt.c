@@ -11,7 +11,7 @@
 
 int main(void)
 {
-	int x = 'a'
+	int x = 'a';
 	
 	do
 	{
@@ -19,5 +19,6 @@ int main(void)
 			continue;
 		x++;
 	}
-	while(x <= 'z')
-		return (o);
+	while(x <= 'z');
+	return (0);
+}

@@ -28,7 +28,7 @@ int main(void)
 		for(b = 0; b < 3; b++)
 		{
 			for(c = 0; c < 3; c++)
-				putchar("%d%d%d,", arr[a],arr[b],arr[c]);
+				putchar("%d %d %d", arr[a],arr[b],arr[c]);
 		}
 	}
 	return (0);

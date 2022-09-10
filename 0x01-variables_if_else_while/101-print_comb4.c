@@ -14,13 +14,13 @@ int main(void)
 	int a, b, c;
 	int arr[3];
 
-	printf("Enter the first number : ");
+	putchar("Enter the first number : ");
         scanf("%d", &arr[0]);
 
-        printf("Enter the second number : ");
+        putchar("Enter the second number : ");
         scanf("%d", &arr[1]);
 
-        printf("Enter the third number : ");
+        putchar("Enter the third number : ");
         scanf("%d", &arr[2]);
 
 	for(a = 0; a<3; a++)

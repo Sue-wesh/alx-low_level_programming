@@ -9,7 +9,7 @@
  */
 int main(void)
 {
-	char c;
+	char c = 0;
 
 	if(c % 16)
 	{

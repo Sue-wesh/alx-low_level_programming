@@ -12,13 +12,16 @@
 int main(void)
 {
 	int x = 'a';
-	
-	do
-	{
-		if((x = 'q') || (x ='e'))
+
+	do {
+		if ((x == 'q') || (x == 'e'))
+		{
 			continue;
+		}
+	}
+	while (x <= 'z')
+	{
 		x++;
 	}
-	while(x <= 'z');
 	return (0);
 }

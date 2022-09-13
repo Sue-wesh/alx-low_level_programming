@@ -19,7 +19,7 @@ int main(void)
 			continue;
 		}
 	}
-	while (x <= 'z')
+	while (x <= 'z');
 	{
 		x++;
 	}

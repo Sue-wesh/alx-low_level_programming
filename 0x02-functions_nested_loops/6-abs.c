@@ -3,24 +3,21 @@
 #include <stdlib.h>
 
 /**
- * _abs - find the absolute value of an integer
+ * _abs - absolute value
  *
- * @a: our parameter
+ * @n: our parameter
  *
  * Return: 0
  */
-int _abs(int a)
+int _abs(int n)
 {
-	int x;
-
-	if (a < 0)
+	if (n < 0)
 	{
-		x = abs(a);
-		_putchar(x);
+		_putchar(abs(n));
 	}
 	else
 	{
-		_putchar(a);
+		_putchar(n);
 	}
 	return (0);
 }

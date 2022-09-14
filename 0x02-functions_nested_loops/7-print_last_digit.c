@@ -14,9 +14,6 @@ int print_last_digit(int n)
 
 	y = n % 10;
 
-	while ((n <= 0) || (n > 0))
-	{
-		_putchar(y);
-	}
+	_putchar(y);
 	return (0);
 }

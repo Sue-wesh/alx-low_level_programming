@@ -3,15 +3,17 @@
 
 /**
  * print_alphabet - display the alphabet in lowercase
- * @a: our parameter
+ *
  * Return: 0
  */
-int print_alphabet(int a)
+void print_alphabet(void)
 {
-	for (int a == 'a'; a <= 'z'; a++)
+	char x;
+
+	for (x = 'a'; x <= 'z'; x++)
 	{
-		_putchar(a);
+		_putchar(x);
 	}
+
 	_putchar('\n');
-	return (0);
 }

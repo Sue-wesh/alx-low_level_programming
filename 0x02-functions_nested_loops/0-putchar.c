@@ -3,12 +3,17 @@
 /**
  * main - Entrypoint
  *
- * Description: prints a statement
- *
- * Return: returns 0
+ * Return: return 0
  */
 int main(void)
 {
-	printf("_putchar\n");
-	return (0);
+	putchar('_');
+	putchar('p');
+	putchar('u');
+	putchar('t');
+	putchar('c');
+	putchar('h');
+	putchar('a');
+	putchar('r');
+	putchar('\n');
 }

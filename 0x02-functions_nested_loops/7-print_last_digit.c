@@ -10,6 +10,7 @@
  */
 int print_last_digit(int n)
 {
+<<<<<<< HEAD
 	int a;
 
 	if (n == 98)
@@ -31,6 +32,17 @@ int print_last_digit(int n)
 				}
 			}
 		}
+=======
+	int y;
+	if ((n > 0) || (n < 0))
+	{
+		y = n % 10;
+		_putchar(y);
+	}
+	else
+	{
+		_putchar(n);
+>>>>>>> 36c06f13edff1a1f83624a9828520c4c3db905a5
 	}
 	return (0);
 }

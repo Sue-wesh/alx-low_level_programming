@@ -3,18 +3,18 @@
 /* betty style doc for function main goes there */
 /**
  * main - entrypoint
- * 
+ *
  * Return: return 0 at end
  *
  */
 int main(void)
 {
-	char c = 0;
+	int i;
 
-	if(c % 16)
+	for (i = 0; i <= 15; i++)
 	{
-		putchar(c);
+		printf("%x", i);
 	}
+	putchar('\n');
 	return (0);
 }
-

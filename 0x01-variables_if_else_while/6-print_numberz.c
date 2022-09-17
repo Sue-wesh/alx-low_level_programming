@@ -3,19 +3,20 @@
 
 /* betty style doc for function main goes there */
 /**
- * main - entrypoint
+ * main - entrpoint
  *
- * Return: return 0 at the end
+ * Return: i the end return 0
  *
  */
 
 int main(void)
 {
-	int y;
+	int x;
 
-	for (y = 0; y < 10; y++)
+	for (x = 48; x < 58; x++)
 	{
-		putchar(y);
+		putchar(x);
 	}
+	putchar('\n');
 	return (0);
 }

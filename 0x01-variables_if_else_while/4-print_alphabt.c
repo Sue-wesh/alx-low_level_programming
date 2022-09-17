@@ -5,23 +5,21 @@
 /**
  * main - entrypoint
  *
- * Return: return 0
- *
+ * Return: Always 0
  */
 
 int main(void)
 {
-	int x = 'a';
+	int x;
 
-	do {
+	for (x = 'a'; x <= 'z'; x++)
+	{
 		if ((x == 'q') || (x == 'e'))
 		{
 			continue;
 		}
+		putchar(x);
 	}
-	while (x <= 'z');
-	{
-		x++;
-	}
-	return (0);
+	putchar('\n');
+	return(0);
 }

@@ -21,7 +21,7 @@ int main(void)
 		}
 		else
 		{
-			printf("%d,", x);
+			printf("%d", x);
 		}
 	}
 	putchar('\n');

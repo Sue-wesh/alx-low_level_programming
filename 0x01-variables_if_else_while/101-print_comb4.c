@@ -1,35 +1,40 @@
 #include <stdio.h>
-
-
-/* betty style doc for function main goes there */
 /**
- * main - entrypoint
- *
- * Return: zero at the end
- *
+ * main - combinations of two digits
+ * Return: return 0 at the end
  */
-
 int main(void)
 {
-	int a, b, c;
-	int arr[3];
+	int x;
 
-	putchar("Enter the first number : ");
-        scanf("%d", &arr[0]);
-
-        putchar("Enter the second number : ");
-        scanf("%d", &arr[1]);
-
-        putchar("Enter the third number : ");
-        scanf("%d", &arr[2]);
-
-	for(a = 0; a<3; a++)
+	for (x = 0; x < 790; x++)
 	{
-		for(b = 0; b < 3; b++)
+		for (x = 0; x < 790; x++)
 		{
-			for(c = 0; c < 3; c++)
-				putchar("%d %d %d", arr[a],arr[b],arr[c]);
+			for (x = 0; x < 790; x++)
+			{
+				int f = x / 10;
+				int l = x % 10;
+
+				if (x == 120 || 102 || 021 || 201 || 210)
+				{
+					continue;
+				}
+				else if (f == l || l == 0)
+				{
+					continue;
+				}
+				else if (x == 789)
+				{
+					printf("%d", x);
+				}
+				else
+				{
+					printf("%d, ", x);
+				}
+			}
 		}
 	}
+	putchar('\n');
 	return (0);
 }

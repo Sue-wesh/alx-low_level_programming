@@ -5,20 +5,17 @@
 /**
  * _abs - absolute value
  *
- * @n: our parameter
- *
  * Return: 0
  */
-int _abs(int n)
+int _abs(int x)
 {
-	if (n < 0)
+	int y;
+
+	if (x < 0)
 	{
-		n = -n;
-		_putchar(abs(n));
-	}
-	else
-	{
-		_putchar(n);
+		x = -x;
+		y = abs(x);
+		putchar(y);
 	}
 	return (0);
 }

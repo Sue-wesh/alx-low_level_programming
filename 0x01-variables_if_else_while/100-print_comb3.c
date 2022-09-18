@@ -1,21 +1,27 @@
 #include <stdio.h>
 
-/* betty style doc for function main goes there */
 /**
  * main - combinations of two digits
- *
  * Return: return 0 at the end
- *
  */
-
 int main(void)
 {
 	int x;
-	int y;
 
-	for(x = 0;x < 10; x++)
+	for (x = 0; x < 90; x++)
 	{
-		for(y = 0;y < 10; y++)
-			putchar(xy,",")
+		int f = x / 10;
+		int l = x % 10;
+
+		if (f == l || l == 0)
+		{
+			continue;
+		}
+		else
+		{
+			printf("%d", x);
+		}
 	}
+	putchar('\n');
 	return (0);
+}

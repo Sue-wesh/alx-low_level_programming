@@ -17,9 +17,13 @@ int main(void)
 		{
 			continue;
 		}
-		else
+		else if (x == 89)
 		{
 			printf("%d", x);
+		}
+		else
+		{
+			printf("%d, ", x);
 		}
 	}
 	putchar('\n');

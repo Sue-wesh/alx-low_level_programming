@@ -9,9 +9,10 @@ void print_rev(char *s)
 {
 	int x;
 
-	while (str[x] != str[0])
+	x = 64;
+	while (s[x] != s[0])
 	{
-		putchar(str[x]);
+		putchar(s[x]);
 		x--;
 	}
 	putchar('\n');

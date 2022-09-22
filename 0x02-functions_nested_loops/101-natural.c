@@ -2,8 +2,9 @@
 
 /**
  * main - print sum of numbers that are multiples of 3 and 5
+ * Return: the value of 0
  */
-int main()
+int main(void)
 {
 	int x, sum;
 
@@ -15,5 +16,6 @@ int main()
 		}
 	}
 	printf("%d", sum);
-	return 0;
+	putchar('\n');
+	return (0);
 }

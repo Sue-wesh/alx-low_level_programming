@@ -11,13 +11,16 @@ int main(void)
         int third = first + second;
 
 	printf("%d%d", first, second);
-	for (i = 0; i <= 50; i++)
+	for (i = 1; i <= 50; i++)
 	{
 		if (i == 50)
 		{
 			printf("%d", third);
 		}
-		printf("%d, ", third);
+		else
+		{
+			printf("%d, ", third);
+		}
 		first = second;
 		second = third;
 		third = first + second;

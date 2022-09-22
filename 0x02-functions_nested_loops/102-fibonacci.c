@@ -10,16 +10,13 @@ int main(void)
 	int first = 0, second = 1;
         int third = first + second;
 
-	printf("%d%d", first, second);
+	printf("%d, %d, ", first, second);
 	for (i = 1; i <= 50; i++)
 	{
+		printf("%d, ", third);
 		if (i == 50)
 		{
 			printf("%d", third);
-		}
-		else
-		{
-			printf("%d, ", third);
 		}
 		first = second;
 		second = third;

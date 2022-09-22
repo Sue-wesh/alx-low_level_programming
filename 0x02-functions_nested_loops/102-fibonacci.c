@@ -13,10 +13,15 @@ int main(void)
 	printf("%d%d", first, second);
 	for (i = 0; i <= 50; i++)
 	{
-		printf("%d", third);
+		if (i == 50)
+		{
+			printf("%d", third);
+		}
+		printf("%d, ", third);
 		first = second;
 		second = third;
 		third = first + second;
 	}
+	putchar('\n');
 	return (0);
 }

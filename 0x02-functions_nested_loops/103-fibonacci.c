@@ -12,14 +12,14 @@ int main(void)
 
 	for (i = 3; third <= 4000000; i++)
 	{
+		int sum;
+
 		first = second;
 		second = third;
 		third = second + first;
 
 		if (i % 2 == 0)
 		{
-			int sum;
-
 			sum = sum + i;
 		}
 		printf("%d", sum);

@@ -7,11 +7,11 @@
 int main(void)
 {
 	int i;
-	int first = 0, second = 1;
-        int third = first + second;
+	int first = 1, second = 2;
+	int third = first + second;
 
 	printf("%d, %d, ", first, second);
-	for (i = 1; i <= 50; i++)
+	for (i = 3; i <= 50; i++)
 	{
 		printf("%d, ", third);
 		if (i == 50)

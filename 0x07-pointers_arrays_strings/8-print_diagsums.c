@@ -5,10 +5,12 @@
  * of a square matrix of integers
  * @a: the array
  * @size: size of array
+ * @sum: sum
+ * Return: end result
  */
 void print_diagsums(int *a, int size)
 {
-	int i, j, sum;
+	int i, j, sum = 0;
 
 	for (i = 0; i < size; i++)
 	{
@@ -16,10 +18,10 @@ void print_diagsums(int *a, int size)
 		{
 			if (i == j)
 			{
-				sum = sum + *a;
-
-				putchar(sum);
+				sum += a[j];
 			}
 		}
 	}
+	printf("%d", sum);
+	putchar('\n');
 }

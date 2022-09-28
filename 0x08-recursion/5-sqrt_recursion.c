@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * sqrt - finds the square root of given num
+ * sqrut - finds the square root of given num
  * @n: the given number
  * @x: the guess value
  * Return: the squareroot

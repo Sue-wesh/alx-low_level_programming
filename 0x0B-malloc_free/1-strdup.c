@@ -11,7 +11,9 @@ char *_strdup(char *str)
 {
 	if (str == NULL)
 	{
-		fprintf(stderr, " ");
+		char *n = NULL;
+
+		fprintf(stderr, "%s", n);
 		return (NULL);
 	}
 	return (strdup(str));

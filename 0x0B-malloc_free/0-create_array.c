@@ -19,7 +19,12 @@ char *create_array(unsigned int size, char c)
 	{
 		return (NULL);
 	}
-		while (i < size)
+	if (s == NULL)
+	{
+		fprintf(stderr, "Not enough memory left\n");
+		return (NULL);
+	}
+	while (i < size)
 	{
 		s[i] = c;
 		i++;

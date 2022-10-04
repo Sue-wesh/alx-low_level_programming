@@ -11,7 +11,7 @@ char *_strdup(char *str)
 {
 	if (str == NULL)
 	{
-		fprintf(stderr, "insufficient space in memory");
+		fprintf(stderr, " ");
 		return (NULL);
 	}
 	return (strdup(str));

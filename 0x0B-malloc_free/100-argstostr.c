@@ -21,5 +21,5 @@ char *argstostr(int ac, char **av)
 		strcat(str, av[i]);
 		printf("%s\n", str);
 	}
-	return (str);
+	return (0);
 }

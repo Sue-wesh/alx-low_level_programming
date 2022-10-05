@@ -14,9 +14,10 @@ int **alloc_grid(int width, int height)
 
 	a = malloc(width * sizeof(int *));
 
+	if (a == NULL)
+		fprintf(stderr, "insufficient memory");
 	if (!a)
 		return (NULL);
-
 	for (i = 0; i < width; i++)
 	{
 		a[i] = malloc(height * sizeof(int));

@@ -7,7 +7,7 @@
  * @s1: the first string array
  * @s2: the second string array
  * @n: the number of bytes from s2 that ought be concatenated
- * 
+ *
  * Return: NULL if it fails
  */
 char *string_nconcat(char *s1, char *s2, unsigned int n)

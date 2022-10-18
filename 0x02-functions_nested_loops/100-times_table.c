@@ -24,9 +24,13 @@ void print_times_table(int n)
 
 				printf("%s", p);
 			}
-			else
+			else if (i < n || j < n)
 			{
-				printf(",%3d", i * j);
+				printf("%3d,", i * j);
+			}
+			else if (i == n || j == n)
+			{
+				printf("%d", i * j);
 			}
 		}
 		putchar('\n');

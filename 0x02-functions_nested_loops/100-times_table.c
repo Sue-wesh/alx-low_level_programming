@@ -14,23 +14,13 @@ void print_times_table(int n)
 	{
 		for (j = 0; j <= n; j++)
 		{
-			if (n == 0)
-			{
-				printf("%d", i * j);
-			}
-			else if (n < 0 || n > 15)
-			{
-				char *p = NULL;
-
-				printf("%s", p);
-			}
-			else if (i < n || j < n)
+			if (i < n || j < n)
 			{
 				printf("%3d,", i * j);
 			}
-			else if (i == n || j == n)
+			else
 			{
-				printf("%d", i * j);
+				printf("%3d", i * j);
 			}
 		}
 		putchar('\n');

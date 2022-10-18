@@ -9,14 +9,12 @@ void print_to_98(int n)
 {
 	while (n > 98)
 	{
-		return (n);
-		putchar(44);
+		printf("%d, ", n);
 		n--;
 	}
 	while (n <= 98)
 	{
-		return (n);
-		putchar(44);
+		printf("%d, ", n);
 		n++;
 	}
 	putchar('\n');

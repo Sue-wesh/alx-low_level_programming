@@ -15,6 +15,9 @@ int _abs(int x)
 	{
 		x = -x;
 		y = abs(x);
+		return (y);
 	}
-	return (y);
+	else if (x >= 0)
+		return (x)
+	return (0);
 }

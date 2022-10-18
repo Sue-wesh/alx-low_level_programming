@@ -11,7 +11,7 @@ int _abs(int x)
 {
 	int y;
 
-	if (x < 0)
+	if (x < 48)
 	{
 		x = -x;
 		y = abs(x);

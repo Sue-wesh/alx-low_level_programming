@@ -15,7 +15,7 @@ int _abs(int x)
 	{
 		x = -x;
 		y = abs(x);
-		printf(y);
+		printf("%d", y);
 	}
 	return (0);
 }

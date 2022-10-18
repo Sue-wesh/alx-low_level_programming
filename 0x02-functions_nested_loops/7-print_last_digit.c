@@ -11,16 +11,18 @@
  */
 int print_last_digit(int r)
 {
-	int l = 0;
+	int l, x;
 
-	if (l == r % 10)
+	l == r % 10;
+	if (l < 0)
 	{
-		if (l < 0)
-		{
-			printf("%d", abs(l));
-		}
-		printf("%d", l);
+		x = abs(l);
+		return (x);
+	}
+	else if (l >= 0)
+	{
+		return (x)
 	}
 	putchar('\n');
-	return (l);
+	return (x);
 }

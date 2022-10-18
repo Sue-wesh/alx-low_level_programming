@@ -18,6 +18,6 @@ int _abs(int x)
 		return (y);
 	}
 	else if (x >= 0)
-		return (x)
+		return (x);
 	return (0);
 }

@@ -11,11 +11,11 @@ int _abs(int x)
 {
 	int y;
 
-	if (x < 48)
+	if (x < 0)
 	{
 		x = -x;
 		y = abs(x);
-		putchar(y);
+		printf(y);
 	}
 	return (0);
 }

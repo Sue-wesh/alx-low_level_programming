@@ -8,25 +8,16 @@
  */
 void print_diagonal(int n)
 {
-	int i;
+	int i, j;
 
 	for (i = 0; i <= n; i++)
 	{
-		if (i == 0)
+		for (j = 0; j <= n; j++)
 		{
-			printf("%d", '*');
-		}
-		else if (i == 1)
-		{
-			printf("%1d", '*');
-		}
-		else if (i == n)
-		{
-			printf("%d", '*');
-		}
-		else if (n <= 0)
-		{
-			putchar('\n');
+			if (i == j)
+				putchar(47);
+			else
+				putchar('\n');
 		}
 	}
 	putchar('\n');

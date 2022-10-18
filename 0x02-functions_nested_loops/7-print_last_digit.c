@@ -21,8 +21,8 @@ int print_last_digit(int r)
 	}
 	else if (l >= 0)
 	{
-		return (x)
+		return (x);
 	}
 	putchar('\n');
-	return (x);
+	return (0);
 }

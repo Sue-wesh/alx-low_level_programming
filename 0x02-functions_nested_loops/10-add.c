@@ -14,6 +14,6 @@ int add(int a, int b)
 	int c;
 
 	c = a + b;
-	putchar(c);
+	printf("%d", c);
 	return (0);
 }

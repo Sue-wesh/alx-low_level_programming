@@ -8,7 +8,7 @@
  */
 void print_diagonal(int n)
 {
-	int j;
+	int i, j;
 
 	for (i = 0; i <= n; i++)
 	{

@@ -12,7 +12,7 @@ size_t print_list(const list_t *h)
 	if (h != NULL)
 	{
 		printf("%s", h->str);
-		h = h->next;
+		h = h->next;	
 	}
 	else
 		printf("%d", '\0');

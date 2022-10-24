@@ -1,1 +1,2 @@
-ou readme file
+readme file for project alx low level programming
+

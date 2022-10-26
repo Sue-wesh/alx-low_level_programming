@@ -15,9 +15,10 @@ list_t *add_node_end(list_t **head, const char *str)
 
 	current = malloc(sizeof(list_t));
 
-	while(current->next != NULL)
+	while (current->next != NULL)
 	{
-		/*if its not equal to null continue 
+		/*
+		 * if its not equal to null continue
 		 * iterating until it gets to the last node
 		 */
 		current = current->next;
@@ -28,5 +29,5 @@ list_t *add_node_end(list_t **head, const char *str)
 	current->next->next = NULL;
 	*head = current;
 
-	return(*head);
+	return (*head);
 }

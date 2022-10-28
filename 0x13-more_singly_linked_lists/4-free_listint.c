@@ -3,7 +3,7 @@
 #include "lists.h"
 
 /**
- * @free_listint - free list listint_t
+ * free_listint - free list listint_t
  * @head: the first element
  */
 void free_listint(listint_t *head)

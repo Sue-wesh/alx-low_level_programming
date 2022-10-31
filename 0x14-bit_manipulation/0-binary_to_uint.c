@@ -4,7 +4,7 @@
 /**
  * binary_to_uint - convert binary to decimal
  * @b: points to a string of 0s and 1s
- * 
+ *
  * Return: the converted number or 0
  */
 unsigned int binary_to_uint(const char *b)
@@ -12,7 +12,7 @@ unsigned int binary_to_uint(const char *b)
 	int dec = 0, base = 1, rem;
 
 	int num = atoi(b);
-	
+
 	if (num != atoi(b))
 		return (0);
 	while (num > 0)

@@ -9,16 +9,18 @@
  */
 unsigned int binary_to_uint(const char *b)
 {
-	int dec = 0, base = 1, rem;
+	unsigned int dec = 0;
 
-	int num = atoi(b);
-
-	while (num > 0)
+	if (!b)
+		return (0);
+	while (*b)
 	{
-		rem = num % 10;
-		dec += rem * base;
-		num = num / 10;
-		base = base * 2;
+		if (*b != '0' && *b != '1')
+			return (0);
+		dec <<= 1;
+		if (*b & 1)
+			dec += 1;
+		b++;
 	}
 	return (dec);
 }

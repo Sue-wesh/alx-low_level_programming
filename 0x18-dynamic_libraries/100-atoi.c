@@ -1,0 +1,11 @@
+#include <stdio.h>
+#include "main.h"
+
+/**
+ * _atoi - convert string to integer
+ * @s: the pointer to the string
+ * Return: the value to be displayed
+ */
+int _atoi(char *s)
+{
+}

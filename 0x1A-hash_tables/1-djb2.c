@@ -1,3 +1,10 @@
+/**
+ * hash_djb2 - implements the djb2 algo
+ * @str: used by hash function to create hash value
+ *
+ * Return: the hash value
+ */
+
 unsigned long int hash_djb2(const unsigned char *str)
 {
 	unsigned long int hash;

@@ -5,7 +5,7 @@
  * @key: used to get the index
  * @size: size of the array of the hash table
  *
- * Return: index 
+ * Return: index
  *
  * Description: remember that to get index we use hash % array_size
  */

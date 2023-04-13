@@ -3,10 +3,12 @@
 #include <math.h>
 #include "search_algos.h"
 /**
- * norm_search - search through an array 
- * @array - pointer to the first element of the array to search in
+ * norm_search - search through an array
+ * @array: pointer to the first element of the array to search in
  * @size: the number of elements in array
  * @value: value to search for
+ * @min: where to start
+ *
  * Return: first index where value is located
  * otherwise -1
  */
@@ -25,6 +27,7 @@ size_t norm_search(int *array, size_t size, int value, size_t min)
  * @array: pointer to the first element of the array to search in
  * @size: the number of elements in array
  * @value: value to search for
+ *
  * Return: first index where value is located
  * otherwise -1
  */
